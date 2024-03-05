@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547412CBFCC37137771FC5AD /* Pods_ElixrTalentConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D133AC8BF649373C38C657 /* Pods_ElixrTalentConnect.framework */; };
+		5A06F2DA2B68FD46009F1553 /* JobDetailsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06F2D92B68FD46009F1553 /* JobDetailsview.swift */; };
+		5A12A7F32B54DD1E00A0BD02 /* SignupViewcontroller+Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12A7F22B54DD1E00A0BD02 /* SignupViewcontroller+Extn.swift */; };
+		5A2801CD2B56F02B00AD9800 /* UIButtonSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2801CC2B56F02B00AD9800 /* UIButtonSetup.swift */; };
+		5A36485D2B51B5CA009228F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A36485C2B51B5CA009228F4 /* SignUpViewController.swift */; };
+		5A3692772B70E0DB00624D5D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3692762B70E0DB00624D5D /* StringExtension.swift */; };
+		5A3ACBAD2B5A896500B3F9F8 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3ACBAC2B5A896500B3F9F8 /* SignupViewModel.swift */; };
+		5A41658F2B6FEB2900980BCF /* AppliedJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41658E2B6FEB2900980BCF /* AppliedJobCell.swift */; };
+		5A4165932B6FEC5800980BCF /* MyjobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4165922B6FEC5800980BCF /* MyjobsViewController.swift */; };
+		5A4936432B6CE9A700E26F98 /* HomeInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4936422B6CE9A700E26F98 /* HomeInfoCell.swift */; };
+		5A4B7BBD2B56DDB100BF8777 /* SignUpModelstructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B7BBC2B56DDB100BF8777 /* SignUpModelstructure.swift */; };
+		5A965C6A2B7A096700706CF2 /* JobDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A965C692B7A096700706CF2 /* JobDetailsViewModel.swift */; };
+		5A965C6C2B7A13F400706CF2 /* ModelStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A965C6B2B7A13F400706CF2 /* ModelStructure.swift */; };
+		5A977ED02B4E88350094286B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A977ECF2B4E88350094286B /* LoginViewController.swift */; };
+		5A977ED22B4E9F300094286B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A977ED12B4E9F300094286B /* Launch Screen.storyboard */; };
+		5A977ED32B4EA6610094286B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9E3E602B4E60DA00E2924A /* Assets.xcassets */; };
+		5A9E3E2E2B4E5F2800E2924A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E3E2D2B4E5F2800E2924A /* AppDelegate.swift */; };
+		5A9E3E352B4E5F2800E2924A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9E3E332B4E5F2800E2924A /* Main.storyboard */; };
+		5A9E3E382B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E3E362B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodeld */; };
+		5A9E3E482B4E5F2800E2924A /* ElixrTalentConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E3E472B4E5F2800E2924A /* ElixrTalentConnectTests.swift */; };
+		5A9E3E522B4E5F2800E2924A /* ElixrTalentConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E3E512B4E5F2800E2924A /* ElixrTalentConnectUITests.swift */; };
+		5A9E3E542B4E5F2800E2924A /* ElixrTalentConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E3E532B4E5F2800E2924A /* ElixrTalentConnectUITestsLaunchTests.swift */; };
+		5A9E3E612B4E60DA00E2924A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9E3E602B4E60DA00E2924A /* Assets.xcassets */; };
+		5AA0FDB22B5D6D2F008B8D31 /* HomeViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0FDB12B5D6D2F008B8D31 /* HomeViewModal.swift */; };
+		5AA0FDB52B5D70F7008B8D31 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0FDB42B5D70F7008B8D31 /* APIManager.swift */; };
+		5AA4B1372B53BB4C009E469D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4B1362B53BB4C009E469D /* HomeViewController.swift */; };
+		5AA4B13F2B544AE4009E469D /* UIViewSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4B13E2B544AE4009E469D /* UIViewSetup.swift */; };
+		5AA4B1412B54555A009E469D /* ProfileDisplayCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4B1402B54555A009E469D /* ProfileDisplayCells.swift */; };
+		5AB565422B55787E00B97941 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB565412B55787E00B97941 /* LoginModel.swift */; };
+		5AB565452B562E9A00B97941 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB565442B562E9A00B97941 /* LoginViewModel.swift */; };
+		5ABCCDA12B62E30700133F2F /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCCDA02B62E30700133F2F /* HamburgerViewController.swift */; };
+		5ABCCDA32B62E39400133F2F /* HamBurgerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABCCDA22B62E39400133F2F /* HamBurgerCell.swift */; };
+		5AC636992B51013C00EA45E0 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC636982B50FA7E00EA45E0 /* DesignableUITextField.swift */; };
+		5AF193F02B710D0400157A8D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF193EF2B710D0400157A8D /* ProfileViewController.swift */; };
+		5AF49FC02B5D038E00893719 /* JobDisplayTable+Extn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF49FBF2B5D038E00893719 /* JobDisplayTable+Extn.swift */; };
+		5AF49FCB2B5D180C00893719 /* HomeDataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF49FCA2B5D180C00893719 /* HomeDataModal.swift */; };
+		5AF9C89F2B5F7A1E007A0D54 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9C89E2B5F7A1E007A0D54 /* MainTabController.swift */; };
+		C84260AEE3A0973DF36BF31B /* Pods_ElixrTalentConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936919F703CE7855E0B4B1C5 /* Pods_ElixrTalentConnectTests.framework */; };
+		E9F4060DAD2D511E21D7E4B1 /* Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6934C681FA856E5F718912 /* Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9E3E442B4E5F2800E2924A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9E3E222B4E5F2800E2924A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9E3E292B4E5F2800E2924A;
+			remoteInfo = ElixrTalentConnect;
+		};
+		5A9E3E4E2B4E5F2800E2924A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9E3E222B4E5F2800E2924A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9E3E292B4E5F2800E2924A;
+			remoteInfo = ElixrTalentConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CE0B1D30FC5050CF44815B0 /* Pods-ElixrTalentConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnect.release.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnect/Pods-ElixrTalentConnect.release.xcconfig"; sourceTree = "<group>"; };
+		1DB07ABD4D543C021EB20E3E /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnect-ElixrTalentConnectUITests.release.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnect-ElixrTalentConnectUITests/Pods-ElixrTalentConnect-ElixrTalentConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A06F2D92B68FD46009F1553 /* JobDetailsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsview.swift; sourceTree = "<group>"; };
+		5A12A7F22B54DD1E00A0BD02 /* SignupViewcontroller+Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupViewcontroller+Extn.swift"; sourceTree = "<group>"; };
+		5A2801CC2B56F02B00AD9800 /* UIButtonSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButtonSetup.swift; path = ElixrTalentConnect/SignUP/UIButtonSetup.swift; sourceTree = SOURCE_ROOT; };
+		5A36485C2B51B5CA009228F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A3692762B70E0DB00624D5D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5A3ACBAC2B5A896500B3F9F8 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		5A41658E2B6FEB2900980BCF /* AppliedJobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJobCell.swift; sourceTree = "<group>"; };
+		5A4165922B6FEC5800980BCF /* MyjobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyjobsViewController.swift; path = ../MyjobsViewController.swift; sourceTree = "<group>"; };
+		5A4936422B6CE9A700E26F98 /* HomeInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInfoCell.swift; sourceTree = "<group>"; };
+		5A4B7BBC2B56DDB100BF8777 /* SignUpModelstructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModelstructure.swift; sourceTree = "<group>"; };
+		5A965C692B7A096700706CF2 /* JobDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewModel.swift; sourceTree = "<group>"; };
+		5A965C6B2B7A13F400706CF2 /* ModelStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStructure.swift; sourceTree = "<group>"; };
+		5A977ECF2B4E88350094286B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A977ED12B4E9F300094286B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5A9E3E2A2B4E5F2800E2924A /* ElixrTalentConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElixrTalentConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9E3E2D2B4E5F2800E2924A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A9E3E342B4E5F2800E2924A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9E3E372B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElixrTalentConnect.xcdatamodel; sourceTree = "<group>"; };
+		5A9E3E3E2B4E5F2800E2924A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9E3E432B4E5F2800E2924A /* ElixrTalentConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElixrTalentConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9E3E472B4E5F2800E2924A /* ElixrTalentConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixrTalentConnectTests.swift; sourceTree = "<group>"; };
+		5A9E3E4D2B4E5F2800E2924A /* ElixrTalentConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElixrTalentConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9E3E512B4E5F2800E2924A /* ElixrTalentConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixrTalentConnectUITests.swift; sourceTree = "<group>"; };
+		5A9E3E532B4E5F2800E2924A /* ElixrTalentConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixrTalentConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A9E3E602B4E60DA00E2924A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ElixrTalentConnect/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		5AA0FDB12B5D6D2F008B8D31 /* HomeViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModal.swift; sourceTree = "<group>"; };
+		5AA0FDB42B5D70F7008B8D31 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5AA4B1362B53BB4C009E469D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5AA4B13E2B544AE4009E469D /* UIViewSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewSetup.swift; sourceTree = "<group>"; };
+		5AA4B1402B54555A009E469D /* ProfileDisplayCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDisplayCells.swift; sourceTree = "<group>"; };
+		5AB565412B55787E00B97941 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		5AB565442B562E9A00B97941 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5ABCCDA02B62E30700133F2F /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		5ABCCDA22B62E39400133F2F /* HamBurgerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamBurgerCell.swift; sourceTree = "<group>"; };
+		5AC636982B50FA7E00EA45E0 /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		5AF193EF2B710D0400157A8D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5AF49FBF2B5D038E00893719 /* JobDisplayTable+Extn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JobDisplayTable+Extn.swift"; sourceTree = "<group>"; };
+		5AF49FCA2B5D180C00893719 /* HomeDataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModal.swift; sourceTree = "<group>"; };
+		5AF9C89E2B5F7A1E007A0D54 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabController.swift; path = ElixrTalentConnect/Helper/MainTabController.swift; sourceTree = SOURCE_ROOT; };
+		655E51A43BFBECBAA9F4E085 /* Pods-ElixrTalentConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnectTests.debug.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnectTests/Pods-ElixrTalentConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6934C681FA856E5F718912 /* Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7EB8631A607B53829B1BE5 /* Pods-ElixrTalentConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnectTests.release.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnectTests/Pods-ElixrTalentConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D931B9392189C57B20A5958 /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnect-ElixrTalentConnectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnect-ElixrTalentConnectUITests/Pods-ElixrTalentConnect-ElixrTalentConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		936919F703CE7855E0B4B1C5 /* Pods_ElixrTalentConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElixrTalentConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED504A9CFD443A0A85FCC75 /* Pods-ElixrTalentConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElixrTalentConnect.debug.xcconfig"; path = "Target Support Files/Pods-ElixrTalentConnect/Pods-ElixrTalentConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D133AC8BF649373C38C657 /* Pods_ElixrTalentConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElixrTalentConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9E3E272B4E5F2800E2924A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547412CBFCC37137771FC5AD /* Pods_ElixrTalentConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E402B4E5F2800E2924A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84260AEE3A0973DF36BF31B /* Pods_ElixrTalentConnectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E4A2B4E5F2800E2924A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F4060DAD2D511E21D7E4B1 /* Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134BE48B512F3CDE9231028C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D133AC8BF649373C38C657 /* Pods_ElixrTalentConnect.framework */,
+				6C6934C681FA856E5F718912 /* Pods_ElixrTalentConnect_ElixrTalentConnectUITests.framework */,
+				936919F703CE7855E0B4B1C5 /* Pods_ElixrTalentConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A12A7F82B54EEF800A0BD02 /* SignUP */ = {
+			isa = PBXGroup;
+			children = (
+				5AF49FC52B5D0CDA00893719 /* ViewController */,
+				5AF49FC42B5D0CC300893719 /* ViewModal */,
+				5AF49FC32B5D0CAF00893719 /* Modal */,
+			);
+			path = SignUP;
+			sourceTree = "<group>";
+		};
+		5A4165942B6FED1E00980BCF /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5A06F2D92B68FD46009F1553 /* JobDetailsview.swift */,
+				5A965C692B7A096700706CF2 /* JobDetailsViewModel.swift */,
+				5A965C6B2B7A13F400706CF2 /* ModelStructure.swift */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		5A977ECE2B4E88350094286B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5AF49FC82B5D0D1700893719 /* ViewController */,
+				5AF49FC72B5D0D0000893719 /* ViewModal */,
+				5AF49FC62B5D0CF700893719 /* Modal */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5A9E3E212B4E5F2800E2924A = {
+			isa = PBXGroup;
+			children = (
+				5A9E3E2C2B4E5F2800E2924A /* ElixrTalentConnect */,
+				5A9E3E462B4E5F2800E2924A /* ElixrTalentConnectTests */,
+				5A9E3E502B4E5F2800E2924A /* ElixrTalentConnectUITests */,
+				5A9E3E2B2B4E5F2800E2924A /* Products */,
+				E1FF1DBFAE718C194E8A52AB /* Pods */,
+				134BE48B512F3CDE9231028C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9E3E2B2B4E5F2800E2924A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E3E2A2B4E5F2800E2924A /* ElixrTalentConnect.app */,
+				5A9E3E432B4E5F2800E2924A /* ElixrTalentConnectTests.xctest */,
+				5A9E3E4D2B4E5F2800E2924A /* ElixrTalentConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9E3E2C2B4E5F2800E2924A /* ElixrTalentConnect */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0FDB32B5D70CD008B8D31 /* Helper */,
+				5AA4B1332B53AABB009E469D /* Extensions */,
+				5AE53AED2B72AFF3006A4031 /* MyProfile */,
+				5AC6E5A42B6BB17300B13FF6 /* HamburgerMenu */,
+				5A4165942B6FED1E00980BCF /* JobDetails */,
+				5ACAE9C42B690A4A00A02965 /* MyJobs */,
+				5AB565432B562E7100B97941 /* HomeviewController */,
+				5A12A7F82B54EEF800A0BD02 /* SignUP */,
+				5A977ECE2B4E88350094286B /* Login */,
+				5AE3A33E2B738C5C00256118 /* Launch Screen */,
+				5A9E3E332B4E5F2800E2924A /* Main.storyboard */,
+				5A9E3E602B4E60DA00E2924A /* Assets.xcassets */,
+				5A9E3E2D2B4E5F2800E2924A /* AppDelegate.swift */,
+				5A9E3E3E2B4E5F2800E2924A /* Info.plist */,
+				5A9E3E362B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodeld */,
+			);
+			path = ElixrTalentConnect;
+			sourceTree = "<group>";
+		};
+		5A9E3E462B4E5F2800E2924A /* ElixrTalentConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E3E472B4E5F2800E2924A /* ElixrTalentConnectTests.swift */,
+			);
+			path = ElixrTalentConnectTests;
+			sourceTree = "<group>";
+		};
+		5A9E3E502B4E5F2800E2924A /* ElixrTalentConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E3E512B4E5F2800E2924A /* ElixrTalentConnectUITests.swift */,
+				5A9E3E532B4E5F2800E2924A /* ElixrTalentConnectUITestsLaunchTests.swift */,
+			);
+			path = ElixrTalentConnectUITests;
+			sourceTree = "<group>";
+		};
+		5AA0FDAF2B5D6CF6008B8D31 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5AA4B1362B53BB4C009E469D /* HomeViewController.swift */,
+				5AF49FBF2B5D038E00893719 /* JobDisplayTable+Extn.swift */,
+				5A4936422B6CE9A700E26F98 /* HomeInfoCell.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		5AA0FDB02B5D6D13008B8D31 /* HomeViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0FDB12B5D6D2F008B8D31 /* HomeViewModal.swift */,
+			);
+			path = HomeViewModal;
+			sourceTree = "<group>";
+		};
+		5AA0FDB32B5D70CD008B8D31 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5AF9C89E2B5F7A1E007A0D54 /* MainTabController.swift */,
+				5AA0FDB42B5D70F7008B8D31 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5AA4B1332B53AABB009E469D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A3692762B70E0DB00624D5D /* StringExtension.swift */,
+				5A2801CC2B56F02B00AD9800 /* UIButtonSetup.swift */,
+				5AC636982B50FA7E00EA45E0 /* DesignableUITextField.swift */,
+				5AA4B13E2B544AE4009E469D /* UIViewSetup.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5AB565432B562E7100B97941 /* HomeviewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0FDB02B5D6D13008B8D31 /* HomeViewModal */,
+				5AA0FDAF2B5D6CF6008B8D31 /* HomeView */,
+				5AF49FC92B5D17DF00893719 /* Model */,
+			);
+			path = HomeviewController;
+			sourceTree = "<group>";
+		};
+		5AC6E5A42B6BB17300B13FF6 /* HamburgerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5ABCCDA22B62E39400133F2F /* HamBurgerCell.swift */,
+				5ABCCDA02B62E30700133F2F /* HamburgerViewController.swift */,
+			);
+			path = HamburgerMenu;
+			sourceTree = "<group>";
+		};
+		5ACAE9C42B690A4A00A02965 /* MyJobs */ = {
+			isa = PBXGroup;
+			children = (
+				5A4165922B6FEC5800980BCF /* MyjobsViewController.swift */,
+				5A41658E2B6FEB2900980BCF /* AppliedJobCell.swift */,
+			);
+			path = MyJobs;
+			sourceTree = "<group>";
+		};
+		5AE3A33E2B738C5C00256118 /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5A977ED12B4E9F300094286B /* Launch Screen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		5AE53AED2B72AFF3006A4031 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				5AF193EF2B710D0400157A8D /* ProfileViewController.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		5AF49FC32B5D0CAF00893719 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B7BBC2B56DDB100BF8777 /* SignUpModelstructure.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5AF49FC42B5D0CC300893719 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				5A3ACBAC2B5A896500B3F9F8 /* SignupViewModel.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		5AF49FC52B5D0CDA00893719 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A36485C2B51B5CA009228F4 /* SignUpViewController.swift */,
+				5A12A7F22B54DD1E00A0BD02 /* SignupViewcontroller+Extn.swift */,
+				5AA4B1402B54555A009E469D /* ProfileDisplayCells.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5AF49FC62B5D0CF700893719 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5AB565412B55787E00B97941 /* LoginModel.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5AF49FC72B5D0D0000893719 /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				5AB565442B562E9A00B97941 /* LoginViewModel.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		5AF49FC82B5D0D1700893719 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5A977ECF2B4E88350094286B /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5AF49FC92B5D17DF00893719 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AF49FCA2B5D180C00893719 /* HomeDataModal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1FF1DBFAE718C194E8A52AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BED504A9CFD443A0A85FCC75 /* Pods-ElixrTalentConnect.debug.xcconfig */,
+				1CE0B1D30FC5050CF44815B0 /* Pods-ElixrTalentConnect.release.xcconfig */,
+				8D931B9392189C57B20A5958 /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.debug.xcconfig */,
+				1DB07ABD4D543C021EB20E3E /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.release.xcconfig */,
+				655E51A43BFBECBAA9F4E085 /* Pods-ElixrTalentConnectTests.debug.xcconfig */,
+				7F7EB8631A607B53829B1BE5 /* Pods-ElixrTalentConnectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9E3E292B4E5F2800E2924A /* ElixrTalentConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9E3E572B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnect" */;
+			buildPhases = (
+				04410364F5CB6120183BE730 /* [CP] Check Pods Manifest.lock */,
+				5A9E3E262B4E5F2800E2924A /* Sources */,
+				5A9E3E272B4E5F2800E2924A /* Frameworks */,
+				5A9E3E282B4E5F2800E2924A /* Resources */,
+				97D769EB1654F0ED3379B43D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElixrTalentConnect;
+			productName = ElixrTalentConnect;
+			productReference = 5A9E3E2A2B4E5F2800E2924A /* ElixrTalentConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9E3E422B4E5F2800E2924A /* ElixrTalentConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9E3E5A2B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnectTests" */;
+			buildPhases = (
+				5E659896DD5152A0BB7C3530 /* [CP] Check Pods Manifest.lock */,
+				5A9E3E3F2B4E5F2800E2924A /* Sources */,
+				5A9E3E402B4E5F2800E2924A /* Frameworks */,
+				5A9E3E412B4E5F2800E2924A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9E3E452B4E5F2800E2924A /* PBXTargetDependency */,
+			);
+			name = ElixrTalentConnectTests;
+			productName = ElixrTalentConnectTests;
+			productReference = 5A9E3E432B4E5F2800E2924A /* ElixrTalentConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A9E3E4C2B4E5F2800E2924A /* ElixrTalentConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9E3E5D2B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnectUITests" */;
+			buildPhases = (
+				B6E508223585A94BDA1DA3B6 /* [CP] Check Pods Manifest.lock */,
+				5A9E3E492B4E5F2800E2924A /* Sources */,
+				5A9E3E4A2B4E5F2800E2924A /* Frameworks */,
+				5A9E3E4B2B4E5F2800E2924A /* Resources */,
+				213ABB14FFB490095A3DDCFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9E3E4F2B4E5F2800E2924A /* PBXTargetDependency */,
+			);
+			name = ElixrTalentConnectUITests;
+			productName = ElixrTalentConnectUITests;
+			productReference = 5A9E3E4D2B4E5F2800E2924A /* ElixrTalentConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9E3E222B4E5F2800E2924A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A9E3E292B4E5F2800E2924A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A9E3E422B4E5F2800E2924A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A9E3E292B4E5F2800E2924A;
+					};
+					5A9E3E4C2B4E5F2800E2924A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A9E3E292B4E5F2800E2924A;
+					};
+				};
+			};
+			buildConfigurationList = 5A9E3E252B4E5F2800E2924A /* Build configuration list for PBXProject "ElixrTalentConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9E3E212B4E5F2800E2924A;
+			productRefGroup = 5A9E3E2B2B4E5F2800E2924A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9E3E292B4E5F2800E2924A /* ElixrTalentConnect */,
+				5A9E3E422B4E5F2800E2924A /* ElixrTalentConnectTests */,
+				5A9E3E4C2B4E5F2800E2924A /* ElixrTalentConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9E3E282B4E5F2800E2924A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A977ED22B4E9F300094286B /* Launch Screen.storyboard in Resources */,
+				5A977ED32B4EA6610094286B /* Assets.xcassets in Resources */,
+				5A9E3E352B4E5F2800E2924A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E412B4E5F2800E2924A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E4B2B4E5F2800E2924A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E3E612B4E60DA00E2924A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04410364F5CB6120183BE730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElixrTalentConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		213ABB14FFB490095A3DDCFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect-ElixrTalentConnectUITests/Pods-ElixrTalentConnect-ElixrTalentConnectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect-ElixrTalentConnectUITests/Pods-ElixrTalentConnect-ElixrTalentConnectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect-ElixrTalentConnectUITests/Pods-ElixrTalentConnect-ElixrTalentConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E659896DD5152A0BB7C3530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElixrTalentConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D769EB1654F0ED3379B43D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect/Pods-ElixrTalentConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect/Pods-ElixrTalentConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElixrTalentConnect/Pods-ElixrTalentConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6E508223585A94BDA1DA3B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElixrTalentConnect-ElixrTalentConnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9E3E262B4E5F2800E2924A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4165932B6FEC5800980BCF /* MyjobsViewController.swift in Sources */,
+				5AF49FC02B5D038E00893719 /* JobDisplayTable+Extn.swift in Sources */,
+				5A977ED02B4E88350094286B /* LoginViewController.swift in Sources */,
+				5A3692772B70E0DB00624D5D /* StringExtension.swift in Sources */,
+				5AF9C89F2B5F7A1E007A0D54 /* MainTabController.swift in Sources */,
+				5AB565422B55787E00B97941 /* LoginModel.swift in Sources */,
+				5A3ACBAD2B5A896500B3F9F8 /* SignupViewModel.swift in Sources */,
+				5A41658F2B6FEB2900980BCF /* AppliedJobCell.swift in Sources */,
+				5A9E3E382B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodeld in Sources */,
+				5A4B7BBD2B56DDB100BF8777 /* SignUpModelstructure.swift in Sources */,
+				5AF193F02B710D0400157A8D /* ProfileViewController.swift in Sources */,
+				5A06F2DA2B68FD46009F1553 /* JobDetailsview.swift in Sources */,
+				5AA0FDB22B5D6D2F008B8D31 /* HomeViewModal.swift in Sources */,
+				5A965C6A2B7A096700706CF2 /* JobDetailsViewModel.swift in Sources */,
+				5AC636992B51013C00EA45E0 /* DesignableUITextField.swift in Sources */,
+				5A9E3E2E2B4E5F2800E2924A /* AppDelegate.swift in Sources */,
+				5A2801CD2B56F02B00AD9800 /* UIButtonSetup.swift in Sources */,
+				5AB565452B562E9A00B97941 /* LoginViewModel.swift in Sources */,
+				5A4936432B6CE9A700E26F98 /* HomeInfoCell.swift in Sources */,
+				5A36485D2B51B5CA009228F4 /* SignUpViewController.swift in Sources */,
+				5AA0FDB52B5D70F7008B8D31 /* APIManager.swift in Sources */,
+				5AA4B1372B53BB4C009E469D /* HomeViewController.swift in Sources */,
+				5AF49FCB2B5D180C00893719 /* HomeDataModal.swift in Sources */,
+				5A965C6C2B7A13F400706CF2 /* ModelStructure.swift in Sources */,
+				5AA4B13F2B544AE4009E469D /* UIViewSetup.swift in Sources */,
+				5AA4B1412B54555A009E469D /* ProfileDisplayCells.swift in Sources */,
+				5ABCCDA32B62E39400133F2F /* HamBurgerCell.swift in Sources */,
+				5A12A7F32B54DD1E00A0BD02 /* SignupViewcontroller+Extn.swift in Sources */,
+				5ABCCDA12B62E30700133F2F /* HamburgerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E3F2B4E5F2800E2924A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E3E482B4E5F2800E2924A /* ElixrTalentConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9E3E492B4E5F2800E2924A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E3E542B4E5F2800E2924A /* ElixrTalentConnectUITestsLaunchTests.swift in Sources */,
+				5A9E3E522B4E5F2800E2924A /* ElixrTalentConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9E3E452B4E5F2800E2924A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9E3E292B4E5F2800E2924A /* ElixrTalentConnect */;
+			targetProxy = 5A9E3E442B4E5F2800E2924A /* PBXContainerItemProxy */;
+		};
+		5A9E3E4F2B4E5F2800E2924A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9E3E292B4E5F2800E2924A /* ElixrTalentConnect */;
+			targetProxy = 5A9E3E4E2B4E5F2800E2924A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9E3E332B4E5F2800E2924A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9E3E342B4E5F2800E2924A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9E3E552B4E5F2800E2924A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9E3E562B4E5F2800E2924A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9E3E582B4E5F2800E2924A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED504A9CFD443A0A85FCC75 /* Pods-ElixrTalentConnect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElixrTalentConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9E3E592B4E5F2800E2924A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE0B1D30FC5050CF44815B0 /* Pods-ElixrTalentConnect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElixrTalentConnect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A9E3E5B2B4E5F2800E2924A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655E51A43BFBECBAA9F4E085 /* Pods-ElixrTalentConnectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElixrTalentConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElixrTalentConnect";
+			};
+			name = Debug;
+		};
+		5A9E3E5C2B4E5F2800E2924A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7EB8631A607B53829B1BE5 /* Pods-ElixrTalentConnectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElixrTalentConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElixrTalentConnect";
+			};
+			name = Release;
+		};
+		5A9E3E5E2B4E5F2800E2924A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D931B9392189C57B20A5958 /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = ElixrTalentConnect;
+			};
+			name = Debug;
+		};
+		5A9E3E5F2B4E5F2800E2924A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB07ABD4D543C021EB20E3E /* Pods-ElixrTalentConnect-ElixrTalentConnectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = d.company.ElixrTalentConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = ElixrTalentConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9E3E252B4E5F2800E2924A /* Build configuration list for PBXProject "ElixrTalentConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9E3E552B4E5F2800E2924A /* Debug */,
+				5A9E3E562B4E5F2800E2924A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9E3E572B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9E3E582B4E5F2800E2924A /* Debug */,
+				5A9E3E592B4E5F2800E2924A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9E3E5A2B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9E3E5B2B4E5F2800E2924A /* Debug */,
+				5A9E3E5C2B4E5F2800E2924A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9E3E5D2B4E5F2800E2924A /* Build configuration list for PBXNativeTarget "ElixrTalentConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9E3E5E2B4E5F2800E2924A /* Debug */,
+				5A9E3E5F2B4E5F2800E2924A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A9E3E362B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A9E3E372B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodel */,
+			);
+			currentVersion = 5A9E3E372B4E5F2800E2924A /* ElixrTalentConnect.xcdatamodel */;
+			path = ElixrTalentConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A9E3E222B4E5F2800E2924A /* Project object */;
+}
